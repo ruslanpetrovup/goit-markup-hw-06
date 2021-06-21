@@ -802,6 +802,7 @@ a {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  cursor: pointer;
 }
 .input-icon {
   appearance: none;
@@ -866,6 +867,7 @@ a {
   letter-spacing: 0.06em;
   color: var(--bg-color);
   background-color: var(--second-text-color);
+  cursor: pointer;
 }
 .modal-icon {
   position: relative;
