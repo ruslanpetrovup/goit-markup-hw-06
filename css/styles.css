@@ -787,6 +787,15 @@ a {
   box-sizing: border-box;
   border-radius: 4px;
 }
+.comment-form::placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
 .rules {
   display: flex;
   justify-content: center;
