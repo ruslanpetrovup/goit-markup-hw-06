@@ -732,7 +732,10 @@ a {
 }
 .button-close .close {
   width: 18px;
-  height: 18px;
+  height: 14px;
+}
+.button-close:hover {
+  fill: var(--second-text-color);
 }
 .form-buy {
   display: flex;
@@ -758,12 +761,16 @@ a {
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
+  color: var(--second-text-color);
 }
 .line-form:focus {
   border: 1px solid var(--second-text-color);
   outline: none;
   box-sizing: border-box;
   border-radius: 4px;
+}
+.line-form:focus + .icon-span {
+  fill: var(--second-text-color);
 }
 .comment-form {
   display: block;
@@ -822,4 +829,17 @@ a {
   letter-spacing: 0.06em;
   color: var(--bg-color);
   background-color: var(--second-text-color);
+}
+.modal-icon {
+  position: relative;
+}
+.icon-span {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+}
+.icon-window {
+  width: 18px;
+  height: 18px;
 }
